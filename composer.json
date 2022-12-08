@@ -1,0 +1,32 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "name": "patricioleono/prueba-tecnica-php-patricioleon",
+    "description": "Prueba Tecnica",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Patricio Humberto Leon Ormazabal",
+            "email": "patricio.lyono@gmail.com"
+        }
+    ],
+    "version": "1.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "patricioleono\\prueba-tecnica-php-patricioleon\\": "src/"
+        },
+        "files": [
+            "src/users.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "patricioleono\\test\\prueba-tecnica-php-patricioleon\\": "test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
